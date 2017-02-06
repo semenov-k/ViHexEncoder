@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #272B30;
+    color: #BBBBBB;
+}
+#root{
+    border-radius: 1px;
+    padding: 30px;
+    width: 400px;
+    height: 220px;
+    background-color: #32383E;
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.3);
+}
+#menu{
+    width: 60%;
+}
+#menu button{
+    display: block;
+    width: 100%;
+    padding: 7px 5px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+#menu button:focus{
+    outline: none;
+}
+.copy-btn{
+    color: #F8FAFF;
+    background-color: #337AB7;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 1px solid #2E6DA4;
+}
+.copy-btn:hover{
+    background-color: #2570b9;
+}
+.copy-btn:active{
+    background-color: #225c9e;
+}
+.clear-btn{
+    color: #fff9fb;
+    background-color: #d9534f;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 1px solid #d43f3a;
+}
+.clear-btn:hover{
+    background-color: #c9534f;
+}
+.clear-btn:active{
+    background-color: #c14d4a;
+}
+#menu td{
+    width: 50%;
+}
+#menu input[type=text]{
+    width: 95%;
+    text-align: center;
+    background-color: #AAAAAA;
+    border-radius: 2px;
+    color: #32383E;
+    font-size: 18px;
+    padding: 3px;
+    border: 1px solid #32383E;
+}
+#menu input[type=text]:focus{
+    outline: none;
+}
+#menu table{
+    width: 100%;
+}
+.sector{
+    padding: 2px;
+    border-radius: 2px;
+    -webkit-user-select: none;
+/* user-select -- это нестандартное свойство */
+    -moz-user-select: none;
+/* поэтому нужны префиксы */
+    -ms-user-select: none;
+    color: #32383E;
+}
+.sector:hover{
+    cursor: pointer;
+}
+#led{
+    float: left;
+    text-align: center;
+}
